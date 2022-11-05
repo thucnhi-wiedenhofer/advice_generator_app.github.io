@@ -1,0 +1,63 @@
+/* CSS général , all devices */
+
+//Colors primary
+$Light-Cyan: hsl(193, 38%, 86%);
+$Neon-Green: hsl(150, 100%, 66%);
+
+//Colors neutral
+$Grayish-Blue: hsl(217, 19%, 38%);
+$Dark-Grayish-Blue: hsl(217, 19%, 24%);
+$Dark-Blue: hsl(218, 23%, 16%);
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Manrope", sans-serif;
+  background-color: $Dark-Blue;
+}
+
+p {
+  color: $Light-Cyan;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+h1 {
+  color: $Neon-Green;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.card {
+  background-color: $Dark-Grayish-Blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 540px;
+  height: 332px;
+  border-radius: 15px;
+  border: none;
+  padding: 30px;
+  margin: 30px;
+}
+
+.attribution {
+  color: $Light-Cyan;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: $Neon-Green;
+}

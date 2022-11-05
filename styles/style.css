@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS général , all devices */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Manrope", sans-serif;
+  background-color: hsl(218deg, 23%, 16%);
+}
+
+p {
+  color: hsl(193deg, 38%, 86%);
+  font-size: 28px;
+  font-weight: 800;
+}
+
+h1 {
+  color: hsl(150deg, 100%, 66%);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.card {
+  background-color: hsl(217deg, 19%, 24%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 540px;
+  height: 332px;
+  border-radius: 15px;
+  border: none;
+  padding: 30px;
+  margin: 30px;
+}
+
+.attribution {
+  color: hsl(193deg, 38%, 86%);
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(150deg, 100%, 66%);
+}/*# sourceMappingURL=style.css.map */
