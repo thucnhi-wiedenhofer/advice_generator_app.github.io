@@ -67,6 +67,7 @@ h1 {
 .divider {
   margin: 15px;
   width: 100%;
+  text-align: center;
 }
 
 .card-text {
@@ -126,6 +127,10 @@ h1 {
   p {
     font-size: 24px;
     font-weight: 700;
+  }
+
+  .divider img {
+    width: 100%;
   }
 
   .advice-btn {
