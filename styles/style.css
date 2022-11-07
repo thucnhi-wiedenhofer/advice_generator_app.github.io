@@ -15,7 +15,16 @@ body {
   align-items: center;
   height: 100vh;
   font-family: "Manrope", sans-serif;
+}
+
+main {
+  width: 1440px;
+  min-height: 810px;
   background-color: hsl(218deg, 23%, 16%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 p {
@@ -28,6 +37,8 @@ h1 {
   color: hsl(150deg, 100%, 66%);
   font-size: 13px;
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 
 .card {
@@ -44,12 +55,66 @@ h1 {
   margin: 30px;
 }
 
+.divider {
+  margin: 15px;
+  width: 100%;
+}
+
+.card-text {
+  text-align: center;
+  margin: 20px;
+}
+
+.advice-btn {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: hsl(150deg, 100%, 66%);
+  cursor: pointer;
+  padding: 20px;
+  position: absolute;
+  top: 60%;
+}
+.advice-btn:hover {
+  box-shadow: 1px 5px 25px -5px hsl(150deg, 100%, 66%), 5px 5px 25px -5px hsl(150deg, 100%, 66%), -5px 5px 25px -5px hsl(150deg, 100%, 66%), -5px 5px 25px -5px hsl(150deg, 100%, 66%);
+}
+
+.icon-dice {
+  position: absolute;
+  width: 24px;
+}
+
 .attribution {
   color: hsl(193deg, 38%, 86%);
   font-size: 11px;
   text-align: center;
+  margin: 40px;
 }
 
 .attribution a {
   color: hsl(150deg, 100%, 66%);
+}
+
+/* CSS Mobile */
+@media screen and (max-width: 376px) {
+  main {
+    width: auto;
+    height: 100vh;
+  }
+  .card {
+    width: 342px;
+    height: 316px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 11px;
+  }
+  p {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .advice-btn {
+    top: 63vh;
+  }
 }/*# sourceMappingURL=style.css.map */
